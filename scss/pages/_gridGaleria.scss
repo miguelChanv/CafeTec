@@ -1,16 +1,17 @@
 .grid__h1{
+    margin: 15vh 0vh 0vh;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .grid{
     display: flex;
-    width: 1200px;
+    width: 100%;
     margin: 0 auto;
     justify-content: center;
     padding-bottom: 50px;
 }
 .grid__galeria{
-    margin-top: 11vh;
+    margin-top: 2vh;
     gap: 20px;
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -18,4 +19,16 @@
 .grid__galeria img{
     width: 250px;
     padding: 10px;
+}
+@media(max-width:768px){
+    .grid__h1{
+        margin:0vh;
+    }
+    .grid__galeria{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .grid__galeria img{
+        width: 350px;
+        padding: 10px;
+    }
 }
