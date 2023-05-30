@@ -1,0 +1,130 @@
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 50px;
+    height: 300px;
+    width: 80vw;
+    margin: 22vh auto;
+    background-blend-mode: multiply,multiply;
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.742) 44%, rgba(203, 177, 238, 0.702) 85%), url(/img/portada.jpg);    
+    background-size: cover;  
+    background-attachment: fixed;
+    background-position: center;
+    border-radius: 10px;
+}
+.main__h1{
+    font-size: 2rem;
+    color: beige;
+    text-align: center;
+    font-weight: bold;
+
+}
+.main__img{
+    height: 80px
+}
+.main__servicio{
+    width: 95vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    color: rgb(0, 0, 0);
+    margin: 0 auto;
+    //box-shadow: -1px 5px 22px 8px #000000;
+    border-radius: 10px;
+}
+
+.main__secundaryH2{
+    font-size: 1.5rem;
+    padding-left: 20px;
+}
+.main__secundary{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.main__secundary ul{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    font-size: 1.1rem;
+}
+
+@media(max-width:769px ){
+    .main{
+        height: 240px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 22vh auto;
+    }
+    .main__h1{
+        font-size: 1rem;
+        color: beige;
+        text-align: center;
+        font-weight: bold;
+    
+    }
+    .main__secundaryH2{
+        font-size: 0.7rem;
+        padding-left: 20px;
+    }
+    .main__secundary ul{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        align-items: center;
+        font-size: 0.6rem;
+    }
+}
+@media(max-width:1025){
+
+}
+
+@media (max-width:1201px){
+    .main{
+        height: 240px;
+        width: 800px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 22vh auto;
+    }
+    .main__h1{
+        font-size: 1.2rem;
+        color: beige;
+        text-align: center;
+        font-weight: bold;
+    
+    }
+
+    .main__servicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    color: rgb(0, 0, 0);
+    width: 70%;
+    margin: 0 auto;
+    }
+    .main__secundaryH2{
+        font-size: 1rem;
+        padding-left: 20px;
+    }
+    .main__secundary ul{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        align-items: center;
+        font-size: 0.6rem;
+    }
+    .main__secundaryIMG img{
+        width: 460px
+    }
+}

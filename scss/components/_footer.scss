@@ -1,0 +1,30 @@
+footer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 100px;
+    margin: 0 auto;
+    width: 100%;
+    background: rgb(203,177,238);
+background: linear-gradient(94deg, rgba(203,177,238,1) 54%, rgba(255,255,255,1) 83%, rgba(255,255,255,1) 95%);
+
+}
+.footer__content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+.footer__content h2{
+    font-size: 1.4rem;
+    text-align: center;
+    margin: 0;
+}
+.footer__icons{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    gap: 20px;
+}
