@@ -223,7 +223,7 @@ nav ul a {
     gap: 10px;
   }
   .main__secundaryIMG img {
-    width: 450px;
+    width: 300px;
   }
 }
 .main__cafeteria {
@@ -413,6 +413,11 @@ footer {
     display: none;
   }
 }
+@media (max-width: 567px) {
+  .main__nosotros-img img {
+    width: 300px;
+  }
+}
 .servicios__titulo {
   text-align: center;
   font-size: 3rem;
@@ -490,6 +495,18 @@ footer {
   }
   .grid__galeria img {
     width: 350px;
+    padding: 10px;
+  }
+}
+@media (max-width: 576px) {
+  .grid {
+    width: 50%;
+  }
+  .grid__galeria {
+    width: 100%;
+  }
+  .grid__galeria img {
+    width: 250px;
     padding: 10px;
   }
 }

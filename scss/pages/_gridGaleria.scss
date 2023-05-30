@@ -32,3 +32,15 @@
         padding: 10px;
     }
 }
+@media(max-width: 576px){
+    .grid{
+        width: 50%;
+    }
+    .grid__galeria{
+        width: 100%;
+    }
+    .grid__galeria img{
+        width: 250px;
+        padding: 10px;
+    }
+}
