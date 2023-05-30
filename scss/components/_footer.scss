@@ -28,3 +28,10 @@ background: linear-gradient(94deg, rgba(203,177,238,1) 54%, rgba(255,255,255,1) 
     font-size: 2rem;
     gap: 20px;
 }
+@media(max-width: 576px){
+    .footer__content h2{
+        font-size: 1.2rem;
+        text-align: center;
+        margin: 0;
+    }
+}

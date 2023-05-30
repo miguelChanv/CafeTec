@@ -211,6 +211,20 @@ nav ul a {
   .main__secundary ul {
     font-size: 1.2rem;
   }
+  .main__secundaryIMG img {
+    width: 650px;
+  }
+}
+@media (max-width: 576px) {
+  .main {
+    margin: 0 auto;
+    height: 150px;
+    width: 90vw;
+    gap: 10px;
+  }
+  .main__secundaryIMG img {
+    width: 450px;
+  }
 }
 .main__cafeteria {
   margin-top: 3rem;
@@ -252,6 +266,11 @@ nav ul a {
   }
   .main__cafeteria-portada img {
     width: 200px;
+  }
+}
+@media (max-width: 576px) {
+  .main__cafeteria-portada h2 {
+    font-size: 1.2rem;
   }
 }
 .main__galeria-h1 {
@@ -311,6 +330,17 @@ nav ul a {
     width: 120px;
   }
 }
+@media (max-width: 576px) {
+  .main__galery {
+    gap: 5px;
+  }
+  .main__galery img {
+    width: 90px;
+  }
+  .main__txt h1 {
+    font-size: 1rem;
+  }
+}
 footer {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -343,6 +373,13 @@ footer {
   gap: 20px;
 }
 
+@media (max-width: 576px) {
+  .footer__content h2 {
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 0;
+  }
+}
 .main__nosotros-h1 {
   text-align: center;
   font-family: Georgia, "Times New Roman", Times, serif;
