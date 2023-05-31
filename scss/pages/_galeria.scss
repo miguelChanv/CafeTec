@@ -23,8 +23,8 @@
     align-self: center;
 }
 .main__galery img{
-    width: 150px;
-
+    width: 250px;
+    border-radius: 10px;
 }
 .main__txt{
     display: flex;
@@ -52,14 +52,17 @@
     }
 }
 @media(max-width: 576px){
+    .main__galeria{
+        gap: 50px;
+    }
     .main__galery{
         gap: 5px;
     }
     .main__galery img{
-        width: 90px;
+        width: 100px;
     }
     .main__txt h1{
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 
 }

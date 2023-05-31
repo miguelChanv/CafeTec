@@ -9,6 +9,9 @@
     justify-content: center;
     margin-bottom: 30px;
 }
+.card-width{
+    width: 20rem;
+}
 @media(max-width:768px){
     .servicios__titulo {
         margin-top: 20px;
@@ -25,7 +28,7 @@
         width: 200px;
     }
     .card-width{
-        width: 28rem;
+        width: 20rem;
     }
     .img-center{
         display: flex;

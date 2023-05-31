@@ -1,5 +1,5 @@
 .grid__h1{
-    margin: 15vh 0vh 0vh;
+    margin: 12vh 0vh 0vh;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -17,8 +17,11 @@
     grid-template-columns: repeat(4,1fr);
 }
 .grid__galeria img{
-    width: 250px;
+    width: 270px;
     padding: 10px;
+    border-radius: 20px;
+
+    
 }
 @media(max-width:768px){
     .grid__h1{
@@ -29,6 +32,7 @@
     }
     .grid__galeria img{
         width: 350px;
+        
         padding: 10px;
     }
 }
